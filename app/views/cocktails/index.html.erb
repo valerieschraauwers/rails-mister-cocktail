@@ -1,13 +1,33 @@
-<h1>Cocktails</h1>
+<div class="container">
+  <div class="text-center">
+    <h1>Cocktails</h1>
+  <%= link_to "Add new cocktail", new_cocktail_path, class: "btn btn-info" %>
+  </div>
 
-<% @cocktails.each do |cocktail| %>
-<div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title"><%= cocktail.name %></h5>
-    <h6 class="card-subtitle mb-2 text-muted"><%= cocktail.name %></h6>
-    <p class="card-text">Description</p>
-    <a href="#" class="card-link">Link to cocktail</a>
+
+  <div class="row">
+    <% @cocktails.each do |cocktail| %>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://source.unsplash.com/600x600/?cocktail,<%= cocktail.name %>');">
+          <div class="card-description">
+            <h2><%= cocktail.name %></h2>
+          </div>
+          <%= link_to "Go to cocktail", cocktail_path(cocktail.id), class: "card-link"  %>
+          <!-- <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay"> -->
+        </div>
+      </div>
     <% end %>
+      <!-- insert <div class="card"> -->
   </div>
 </div>
+
+
+
+
+
+
+
+
+
+
 
