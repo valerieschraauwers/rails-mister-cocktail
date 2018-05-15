@@ -7,8 +7,8 @@
 
   <div class="row">
     <% @cocktails.each do |cocktail| %>
-      <div class="col-xs-12 col-sm-4">
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://source.unsplash.com/600x600/?cocktail,<%= cocktail.name %>');">
+      <div class="col-xs-12 col-sm-12">
+        <div class="card" id="img" style="background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.2)), url('https://source.unsplash.com/600x600/?cocktail,<%= cocktail.name %> cocktail');">
           <div class="card-description">
             <h2><%= cocktail.name %></h2>
           </div>

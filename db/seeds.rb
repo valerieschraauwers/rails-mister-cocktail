@@ -19,7 +19,7 @@ ingredients['drinks'].each do | ingredient |
     )
 end
 
-Cocktail.create(name: "Old Fashioned")
+Cocktail.create(name: "Daquiri")
 Cocktail.create(name: "Moscow Mule")
 Cocktail.create(name: "Gin & Tonic")
 Cocktail.create(name: "Mojito")
