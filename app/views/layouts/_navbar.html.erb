@@ -9,8 +9,8 @@
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
     <!-- <a href="" class="navbar-wagon-item navbar-wagon-link">Home</a> -->
-    <a href="cocktails/new" class="navbar-wagon-item navbar-wagon-link">Add Cocktail</a>
-    <a href="cocktails/new_cocktail_dose" class="navbar-wagon-item navbar-wagon-link">Add Dose</a>
+    <%= link_to "Add Cocktail", new_cocktail_path, class: "navbar-wagon-item navbar-wagon-link"%>
+    <!-- <a href="cocktails/new_cocktail_dose" class="navbar-wagon-item navbar-wagon-link">Add Dose</a> -->
 
     <!-- Profile picture with dropdown list -->
     <div class="navbar-wagon-item">
@@ -30,9 +30,9 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#">Host</a></li>
-        <li><a href="#">Trips</a></li>
-        <li><a href="#">Messagese</a></li>
+      <!--   <li><a href="#">Host</a></li> -->
+        <li><a href="#">Add Cocktail</a></li>
+        <!-- <li><a href="#">Messagese</a></li> -->
       </ul>
     </div>
   </div>

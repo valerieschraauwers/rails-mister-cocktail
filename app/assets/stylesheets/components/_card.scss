@@ -1,6 +1,6 @@
 .card {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   background-position: center;
@@ -19,6 +19,20 @@
   -webkit-filter: grayscale(0);
 }
 
+#img-cocktail {
+  opacity: 0.7;
+}
+
+.card.cocktail {
+  height: 500px;
+  width: 400px;
+}
+
+.ingredient-card {
+  height: 500px;
+  width: 400px;
+}
+
 .card-user {
   position: absolute;
   right: 10px;
@@ -35,8 +49,10 @@
 }
 .card-description {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  top: 5px;
+  left: 5px;
+  text-align: left;
+  margin-left: 15px;
 }
 
 .card-description h1 {
@@ -79,20 +95,45 @@
   -webkit-filter: grayscale(0);
 }
 
+.ingredient-card h2 {
+  font-family: 'Amatic SC';
+  font-size: 30px;
+
+}
+
 .card.ingredient {
-  height: 100px;
-  width: 100px;
-  text-shadow: 0 0.5px 0.5px rgba(0,0,0,0.6);
+  height: 110px;
+  width: 110px;
+  text-shadow: 0 0.1px 0.1px rgba(0,0,0,0.1);
   color: black;
   position: relative;
-  margin: 15px 0px;
-  border-radius: 3px;
+  margin: 0px 15px;
+  border-radius: 5px;
   box-shadow: 0px;
-  border: 2px solid black;
   text-align: center;
+  font-family: 'Amatic SC';
+}
+
+.card.ingredient h5 {
+  font-size: 25px;
+}
+.card.ingredient p{
+  font-size: 20px;
+}
+
+.card-subtitle p{
+  font-size: 10px;
+  font-weight: cursive;
 }
 
 .far {
   color: grey;
   text-decoration: none;
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+}
+
+.far:hover {
+  color: black;
 }
