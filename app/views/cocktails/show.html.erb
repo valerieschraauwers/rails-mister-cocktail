@@ -2,6 +2,7 @@
       <div class="card-description">
           <h1><%= @cocktail.name %></h1>
           <%= link_to "Add new dose", new_cocktail_dose_path(@cocktail), class: "btn btn-info" %>
+          <%= link_to "Edit cocktail description", edit_cocktail_path(@cocktail), class: "btn btn-info" %>
           </div>
         </div>
 
