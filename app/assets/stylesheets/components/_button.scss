@@ -1,18 +1,23 @@
 .btn {
   font-family: 'Amatic SC';
   text-decoration: none;
-  color: white;
+  color: darkred;
   border: 1px solid white;
   font-size: 20px;
+  background-color: white;
+  opacity: 0.5;
 }
 
 .btn:hover {
-  color: red;
+  color: darkred;
+  background-color: white;
+  opacity: 0.8;
 }
 
 .btn.btn-lg.btn-black {
   font-family: 'Amatic SC';
   color: grey;
+  background-color: white;
   border: 1px solid grey;
   font-size: 30px;
   background-color: white;
@@ -26,7 +31,8 @@
 }
 
 .btn.btn-black:hover {
-  color: black;
+  color: darkred;
   opacity: 1;
 }
+
 

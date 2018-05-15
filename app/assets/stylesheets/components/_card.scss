@@ -65,11 +65,19 @@
   font-size: 24px;
   font-family: 'Amatic SC';
   font-weight: bold;
-  font-size: 40px;
 }
+
+.card-description h6 {
+  font-size: 25px;
+  font-family: 'Amatic SC';
+  font-weight: lighter;
+  font-style: cursive;
+}
+
 .card-description p {
   font-size: 14px;
   opacity: 0.7;
+  font-family: 'Amatic SC';
   font-weight: lighter;
 }
 .card-link {
@@ -110,6 +118,7 @@
   margin: 0px 15px;
   border-radius: 5px;
   box-shadow: 0px;
+  border: 1px solid white;
   text-align: center;
   font-family: 'Amatic SC';
 }
