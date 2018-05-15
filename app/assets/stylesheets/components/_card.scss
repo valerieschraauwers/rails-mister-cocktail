@@ -1,6 +1,6 @@
 .card {
-  height: 400px;
-  width: 200px;
+  height: 200px;
+  width: 700px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   background-position: center;
@@ -9,7 +9,6 @@
   margin: 15px 0px;
   border-radius: 3px;
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
-
 }
 
 #img{
@@ -59,4 +58,31 @@
 }
 .card-link:hover {
   opacity: 0.1;
+}
+
+.cocktail {
+  height: 300px;
+  width: 800px;
+}
+
+#img-cocktail {
+  -webkit-filter: grayscale(0);
+}
+
+.card.ingredient {
+  height: 100px;
+  width: 100px;
+  text-shadow: 0 0.5px 0.5px rgba(0,0,0,0.6);
+  color: black;
+  position: relative;
+  margin: 15px 0px;
+  border-radius: 3px;
+  box-shadow: 0px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.far {
+  color: grey;
+  text-decoration: none;
 }

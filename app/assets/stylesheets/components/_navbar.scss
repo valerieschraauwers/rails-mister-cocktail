@@ -15,6 +15,12 @@
   height: 50px;
 }
 
+h1 {
+  font-family: 'Amatic SC';
+  font-weight: bold;
+  font-size: 40px;
+}
+
 /* User Avatar */
 .navbar-wagon .avatar {
   height: 35px;
@@ -33,12 +39,15 @@
 .navbar-wagon-item {
   cursor: pointer;
   padding: 0 20px;
+
 }
 
 /* Navbar link */
 .navbar-wagon-link {
   color: #616668;
-  font-size: 14px;
+  font-family: 'Amatic SC';
+  font-weight: cursive;
+  font-size: 25px;
 }
 .navbar-wagon-link:hover {
   color: #da552f;
